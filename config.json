@@ -1,66 +1,56 @@
 {
   "project": {
-    "name": "Finda",
-    "description": "<p>Finda is a generic \"find-a\" app for geographic datasets.</p>",
-    "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https://github.com/codeforboston/finda/issues\" target=\"_blank\">Github</a> page."
+    "name": "Cambridge Homeless Resources",
+    "description": "<p>Access to resources for homeless people in Cambridge.</p>",
+    "contact": ""
   },
   "map": {
-    "preview_attribute": "organization_name",
-    "center":[42.3725, -71.1266],
+    "preview_attribute": "ProgramName",
+    "center":[42.3783904, -71.1129097],
     "zoom":13,
-    "maxZoom":16,
+    "maxZoom":18,
     "maxBounds":[
       [39.2, -78.0],
       [44.5, -65.0]
     ]
   },
   "properties": [
-    "organization_name",
-    "address",
-    {"name": "address", "title": "directions", "directions": true },
-    {"name": "web_url", "title": "website", "url": true },
-    {"name": "contact_names", "title": "Contact Information" },
-    "contact_emails",
-    "phone_numbers",
-
-    {"name": "services_offered", "title": "Services" },
-    {"name": "youth_category", "title": "Type of Organization" },
-    {"name": "target_populations", "title": "Populations Served" },
-
-    {"name": "additional_notes", "title": "Information"}
+    "ProgramName",
+    "Address",
+    "City",
+    "Phone",
+    { "name": "Transit", "title" : "Transit" },
+    { "name": "Section", "title": "Type of service"},
+    { "name" :"Gender", "title": "Gender" }
   ],
   "list": [
-    "organization_name",
-    "address"
+    "ProgramName",
+    "Address"
   ],
   "search": {
     "geosearch": true,
     "full_text": {
       "keys": [
-        "address",
-        "organization_name",
-        "community",
-        "youth_category",
-        "service_class_level_2",
-        "additional_notes"]
+        "Address",
+        "ProgramName"]
     }
   },
   "facets": {
-    "target_populations": {
-      "title": "Populations Served",
+    "Section": {
+      "title": "Type of Service",
       "type": "list"
     },
-    "youth_category": {
-      "title": "Category",
-      "type": "single"
+    "Gender": {
+      "title": "Gender",
+      "type": "list"
     }
   },
   "analytics": {
-    "enabled": true,
+    "enabled": false,
     "private": false,
     "google_tracker": null,
     "hostname": "auto",
     "detail_enabled": true
   },
-  "geojson_source": "data.geojson"
+  "geojson_source": "CambridgeHomelessPrograms.geojson"
 }

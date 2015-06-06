@@ -3,13 +3,16 @@
 .feature-phone_numbers {
   font-style: italic;
 }
-.feature-address {
+.feature-Address {
   font-style: italic;
 }
-.feature-address a { /* directions */
+.feature-Phone {
+  font-style: italic;
+}
+.feature-Address a { /* directions */
   font-style: normal;
 }
-.feature-organization_name {
+.feature-ProgramName {
   font-weight: bold;
   font-size: 20px;
 }

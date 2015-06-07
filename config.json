@@ -43,16 +43,20 @@
     }
   },
   "facets": {
-    "Section": {
-      "title": "Type of Service",
+    "Category": {
+      "title": "Category",
+      "type": "list"
+    },
+    "Gender": {
+      "title": "Gender",
       "type": "list"
     },
     "Age": {
       "title": "Age",
       "type": "list"
     },
-    "Gender": {
-      "title": "Gender",
+    "Section": {
+      "title": "Type of Service",
       "type": "list"
     }
   },

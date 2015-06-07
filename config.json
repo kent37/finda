@@ -19,6 +19,7 @@
     "Address",
     "City",
     "Phone",
+    {"name":"Days", "title":"Hours" },
     { "name": "Transit", "title" : "Transit" },
     { "name": "Section", "title": "Type of service"},
     { "name" :"Gender", "title": "Gender" }

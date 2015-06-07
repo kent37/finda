@@ -12,6 +12,15 @@
 .feature-Address a { /* directions */
   font-style: normal;
 }
+.feature-Days h4,
+.feature-Transit h4,
+.feature-Section h4,
+.feature-Gender h4
+ {
+	margin-top: 6px;
+	font-size: 14px;
+	font-weight: bold;
+}
 .feature-ProgramName {
   font-weight: bold;
   font-size: 20px;

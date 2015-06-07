@@ -18,11 +18,17 @@
     "ProgramName",
     "Address",
     "City",
+    {"name": "Link", "title": "website", "url": true },
     "Phone",
     {"name":"Days", "title":"Hours" },
     { "name": "Transit", "title" : "Transit" },
     { "name": "Section", "title": "Type of service"},
-    { "name" :"Gender", "title": "Gender" }
+    { "name" :"Gender", "title": "Gender" },
+    { "name" : "MinAge", "title": "Minimum Age"},
+    { "name" : "MaxAge", "title": "Maximum Age"},
+    "Accessible",
+    "Veteran",
+    "Sober"
   ],
   "list": [
     "ProgramName",
@@ -39,6 +45,10 @@
   "facets": {
     "Section": {
       "title": "Type of Service",
+      "type": "list"
+    },
+    "Age": {
+      "title": "Age",
       "type": "list"
     },
     "Gender": {

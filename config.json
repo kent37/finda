@@ -51,10 +51,6 @@
       "title": "Gender",
       "type": "list"
     },
-    "Age": {
-      "title": "Age",
-      "type": "list"
-    },
     "Section": {
       "title": "Type of Service",
       "type": "list"
@@ -67,5 +63,5 @@
     "hostname": "auto",
     "detail_enabled": true
   },
-  "geojson_source": "CambridgeHomelessPrograms.geojson"
+  "geojson_source": "https://script.google.com/macros/s/AKfycbz_B56XnUOtlwlyBzAcxA4rAMuaVXQnpSem26PSLbsCpYJBrR8/exec"
 }

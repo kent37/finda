@@ -138,6 +138,7 @@ body > div.container {
   #search {
     /*text-align: center;*/
     float: none !important;
+    width: 90%;
   }
 
   #search .form-group {
